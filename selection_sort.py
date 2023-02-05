@@ -6,4 +6,4 @@ def selection_sort(array: list, reverse: bool = False) -> None:
                     array[i], array[j] = array[j], array[i]
             else:
                 if array[i] > array[j]:
-                array[i], array[j] = array[j], array[i]
+                    array[i], array[j] = array[j], array[i]

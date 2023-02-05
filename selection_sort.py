@@ -7,3 +7,4 @@ def selection_sort(array: list, reverse: bool = False) -> None:
             else:
                 if array[i] > array[j]:
                     array[i], array[j] = array[j], array[i]
+    return array
